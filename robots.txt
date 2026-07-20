@@ -1,5 +1,0 @@
-User-agent: *
-
-Allow: /
-
-Sitemap: https://alfazwriter.com/sitemap.xml
