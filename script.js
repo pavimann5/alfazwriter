@@ -73,3 +73,10 @@ const nav = document.querySelector("nav");
 menuToggle.addEventListener("click", () => {
     nav.classList.toggle("active");
 });
+// Menu auto close after click
+
+document.querySelectorAll("nav a").forEach(link => {
+    link.addEventListener("click", () => {
+        nav.classList.remove("active");
+    });
+});
