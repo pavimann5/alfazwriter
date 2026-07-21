@@ -462,15 +462,17 @@ transition:.3s;
 button:hover{
 background:#111;
 }
-/* ===== MENU BUTTON ===== */
+/* ===== MOBILE MENU ===== */
 
 .menu-toggle{
 display:none;
 background:none;
 border:none;
-font-size:30px;
+font-size:32px;
 color:#fff;
 cursor:pointer;
+margin-left:auto;
+z-index:1001;
 }
 
 @media (max-width:900px){
@@ -481,7 +483,13 @@ display:block;
 
 nav{
 display:none;
+position:absolute;
+top:80px;
+left:0;
 width:100%;
+background:#111;
+padding:20px 0;
+box-shadow:0 10px 20px rgba(0,0,0,.4);
 }
 
 nav.active{
@@ -489,9 +497,20 @@ display:block;
 }
 
 nav ul{
+display:flex;
 flex-direction:column;
-text-align:center;
-margin-top:20px;
+align-items:center;
+gap:18px;
+}
+
+nav ul li{
+margin:0;
+}
+
+nav ul li a{
+font-size:18px;
+display:block;
+padding:10px;
 }
 
 }
