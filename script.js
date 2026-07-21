@@ -70,9 +70,11 @@ console.log("Alfaz Official Website Loaded Successfully.");
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector("nav");
 
-menuToggle.addEventListener("click", () => {
-    nav.classList.toggle("active");
-});
+if (menuToggle && nav) {
+    menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("active");
+    });
+}
 // Menu auto close after click
 
 document.querySelectorAll("nav a").forEach(link => {
