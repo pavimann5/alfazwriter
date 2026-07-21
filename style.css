@@ -74,8 +74,10 @@ nav ul li a:hover{
     text-align:center;
 }
 .hero-image img{
-    width:380px;
-    height:380px;
+    width:100%;
+    max-width:380px;
+    height:auto;
+    aspect-ratio:1/1;
     border-radius:50%;
     object-fit:cover;
     border:8px solid #d4af37;
