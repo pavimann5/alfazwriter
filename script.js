@@ -82,7 +82,7 @@ document.querySelectorAll("nav a").forEach(link => {
         nav.classList.remove("active");
     });
 });
-/ ===== LIGHTBOX =====
+// ===== LIGHTBOX =====
 
 const galleryImages = document.querySelectorAll(".gallery-item img");
 const lightbox = document.getElementById("lightbox");
