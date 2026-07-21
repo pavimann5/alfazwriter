@@ -104,3 +104,9 @@ lightbox.addEventListener("click", (e) => {
         lightbox.style.display = "none";
     }
 });
+// Auto Copyright Year
+const year = document.getElementById("year");
+
+if (year) {
+    year.textContent = new Date().getFullYear();
+}
