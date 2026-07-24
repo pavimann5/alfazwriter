@@ -612,3 +612,81 @@ font-weight:bold;
     border-radius:18px;
     box-shadow:0 10px 30px rgba(0,0,0,.35);
 }
+/* ===========================
+AUTHOR QUOTE
+=========================== */
+
+.author-quote{
+    text-align:center;
+    background:#181818;
+}
+
+.quote-card{
+    max-width:700px;
+    margin:35px auto 0;
+    padding:45px 30px;
+    background:#1f1f1f;
+    border:2px solid #d4af37;
+    border-radius:50px;
+    box-shadow:0 0 30px rgba(212,175,55,.25);
+}
+
+.quote-text{
+    font-size:30px;
+    line-height:1.8;
+    color:#fff;
+    font-weight:600;
+}
+
+.quote-card h3{
+    margin-top:25px;
+    color:#d4af37;
+    font-size:24px;
+}
+
+/* ===========================
+JOURNEY
+=========================== */
+
+.journey{
+    background:#101010;
+}
+
+.journey-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.journey-card{
+    background:#1b1b1b;
+    border:1px solid #333;
+    border-radius:20px;
+    padding:30px 20px;
+    text-align:center;
+    transition:.35s;
+}
+
+.journey-card:hover{
+    transform:translateY(-8px);
+    border-color:#d4af37;
+    box-shadow:0 10px 25px rgba(212,175,55,.25);
+}
+
+.journey-card h3{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.journey-card h2{
+    margin:0;
+    color:#d4af37;
+    font-size:34px;
+}
+
+.journey-card p{
+    margin-top:8px;
+    color:#ddd;
+    font-size:18px;
+}
