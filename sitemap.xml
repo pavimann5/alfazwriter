@@ -44,18 +44,26 @@
 <priority>0.7</priority>
 </url>
 <url>
-<loc>https://alfazwriter.com/vartak/jadon-main-patrkar-bania.html</loc>
+  <loc>https://alfazwriter.com/vartak/jadon-main-patrkar-bania.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://alfazwriter.com/vartak/bapu-de-boot.html</loc>
+  <loc>https://alfazwriter.com/vartak/bapu-de-boot.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://alfazwriter.com/vartak/neela-canter.html</loc>
+  <loc>https://alfazwriter.com/vartak/neela-canter.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
 
 <url>
-<loc>https://alfazwriter.com/vartak/asali-patar-nakali-patar.html</loc>
+  <loc>https://alfazwriter.com/vartak/asali-patar-nakali-patar.html</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
 </urlset>
