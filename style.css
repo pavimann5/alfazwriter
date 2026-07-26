@@ -742,3 +742,26 @@ JOURNEY
     font-weight:600;
     margin:18px 0;
 }
+.payment-box{
+    margin-top:25px;
+    padding:25px;
+    border:2px solid #d4af37;
+    border-radius:22px;
+    text-align:center;
+}
+
+.payment-qr{
+    width:220px;
+    max-width:100%;
+    display:block;
+    margin:0 auto;
+    background:#fff;
+    padding:10px;
+    border-radius:12px;
+}
+
+.payment-text{
+    margin-top:18px;
+    color:#fff;
+    font-size:18px;
+}
