@@ -761,3 +761,14 @@ JOURNEY
     font-size:22px;
     color:#fff;
 }
+/* ===== STORY TITLE LINKS ===== */
+
+.story-card h3 a{
+    color:#d4af37;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.story-card h3 a:hover{
+    color:#ffffff;
+}
