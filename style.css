@@ -1715,3 +1715,13 @@ scroll-padding-top:100px;
 /*  
 END OF STYLESHEET 
  */
+/* ===== STORY CARD COVER ===== */
+
+.story-card .story-cover{
+    width:100%;
+    max-width:none;
+    aspect-ratio:3/4;
+    object-fit:cover;
+    border-radius:14px;
+    margin-bottom:18px;
+}
