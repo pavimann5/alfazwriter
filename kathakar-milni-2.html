@@ -4,163 +4,352 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ਕਥਾਕਾਰ ਮਿਲਣੀ–2 | Alfaz Writer</title>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>ਕਥਾਕਾਰ ਮਿਲਣੀ–2 | ਅਲਫ਼ਾਜ਼</title>
 
 <meta name="description"
-content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾਣੀਕਾਰਾਂ ਦੀ ਸਾਹਿਤਕ ਮਿਲਣੀ।">
+      content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾਣੀਕਾਰਾਂ ਦੀ ਸਾਹਿਤਕ ਮਿਲਣੀ।">
 
-<meta name="author" content="ਅਲਫ਼ਾਜ਼">
+<meta name="author"
+      content="ਅਲਫ਼ਾਜ਼">
 
 <link rel="stylesheet" href="style.css">
 
+
 <style>
 
-/* ================================
-   ਕਥਾਕਾਰ ਮਿਲਣੀ–2 PAGE
-================================ */
+/* =====================================================
+   KATHAKAR MILNI–2
+   DEDICATED EVENT PAGE
+===================================================== */
 
-.kathakar-page {
-    min-height: 100vh;
-    padding: 80px 20px;
+
+/* ---------- PAGE ---------- */
+
+.km-page {
+    width: 100%;
+    padding: 35px 20px 70px;
 }
 
-.kathakar-container {
-    max-width: 1000px;
-    margin: auto;
+.km-container {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
 }
 
-/* HERO */
 
-.kathakar-hero {
+/* ---------- HERO ---------- */
+
+.km-hero {
     text-align: center;
-    padding: 55px 25px;
-    margin-bottom: 35px;
+    padding: 25px 15px 35px;
 }
 
-.kathakar-hero h1 {
+.km-hero h1 {
     font-size: 48px;
-    margin-bottom: 15px;
+    line-height: 1.3;
+    margin: 0 0 12px;
 }
 
-.kathakar-hero p {
-    font-size: 20px;
-    line-height: 1.8;
+.km-hero p {
+    font-size: 22px;
+    line-height: 1.7;
+    margin: 0;
 }
 
-/* INFO CARDS */
 
-.kathakar-info {
+/* ---------- EVENT INFO ---------- */
+
+.km-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin: 35px 0;
+    margin: 10px 0 45px;
 }
 
-.kathakar-card {
-    padding: 28px 20px;
+.km-info-card {
     text-align: center;
-    border-radius: 14px;
+    padding: 28px 18px;
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.08);
 }
 
-.kathakar-card h3 {
-    margin-bottom: 10px;
+.km-info-card .icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.km-info-card h3 {
+    font-size: 23px;
+    margin: 5px 0 10px;
+}
+
+.km-info-card p {
     font-size: 20px;
-}
-
-.kathakar-card p {
-    margin: 0;
     line-height: 1.7;
+    margin: 0;
 }
 
-/* CONTENT */
 
-.kathakar-content {
+/* ---------- COMMON SECTION ---------- */
+
+.km-section {
     padding: 35px 25px;
-    margin-top: 30px;
-    border-radius: 14px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    border: 1px solid rgba(0,0,0,0.08);
 }
 
-.kathakar-content h2 {
+.km-section h2 {
     text-align: center;
-    margin-bottom: 25px;
+    font-size: 32px;
+    line-height: 1.5;
+    margin: 0 0 22px;
 }
 
-.kathakar-content p {
-    font-size: 17px;
+.km-section p {
+    font-size: 20px;
     line-height: 2;
+    margin: 0 0 15px;
 }
 
-/* REGISTRATION */
 
-.kathakar-register {
+/* ---------- PROGRAM DETAILS ---------- */
+
+.km-program {
     text-align: center;
-    padding: 45px 20px;
-    margin-top: 35px;
-    border-radius: 14px;
 }
 
-.kathakar-register h2 {
-    margin-bottom: 15px;
+.km-program p {
+    margin: 0;
 }
 
-.kathakar-register p {
-    margin-bottom: 25px;
+
+/* ---------- REGISTRATION ---------- */
+
+.km-registration {
+    text-align: center;
+    padding: 50px 25px;
+    margin: 40px 0;
+    border-radius: 20px;
+    border: 2px solid rgba(212,175,55,0.65);
 }
 
-/* BUTTON */
+.km-registration h2 {
+    font-size: 36px;
+    line-height: 1.5;
+    margin: 0 0 15px;
+}
 
-.kathakar-register-btn {
+.km-registration p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin: 0 0 30px;
+}
+
+.km-form-btn {
     display: inline-block;
-    padding: 14px 30px;
-    border-radius: 8px;
+    padding: 19px 42px;
+    border-radius: 12px;
     text-decoration: none;
-    font-weight: 600;
-    animation: registerPulse 1.8s ease-in-out infinite;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.4;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+
+    animation: kmFormPulse 1.8s ease-in-out infinite;
 }
 
-@keyframes registerPulse {
+.km-form-btn:hover {
+    transform: translateY(-4px) scale(1.03);
+}
+
+@keyframes kmFormPulse {
 
     0%, 100% {
         transform: scale(1);
+        box-shadow: 0 0 0 rgba(212,175,55,0);
     }
 
     50% {
         transform: scale(1.05);
+        box-shadow: 0 0 24px rgba(212,175,55,0.55);
     }
 
 }
 
-/* BACK BUTTON */
 
-.kathakar-back {
+/* ---------- KATHAKAR MANCH ---------- */
+
+.km-manch {
     text-align: center;
+    padding: 45px 25px;
     margin-top: 35px;
+    border-radius: 20px;
 }
 
-/* MOBILE */
+.km-manch h2 {
+    font-size: 34px;
+    line-height: 1.5;
+    margin: 0 0 25px;
+}
+
+.km-manch p {
+    max-width: 900px;
+    margin: 0 auto 18px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+
+/* ---------- BACK BUTTON ---------- */
+
+.km-back {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.km-back a {
+    display: inline-block;
+    padding: 14px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
 
 @media (max-width: 768px) {
 
-    .kathakar-page {
-        padding: 45px 15px;
+    .km-page {
+        padding: 25px 14px 50px;
     }
 
-    .kathakar-hero h1 {
-        font-size: 34px;
+    .km-hero {
+        padding: 15px 8px 25px;
     }
 
-    .kathakar-hero p {
-        font-size: 17px;
+    .km-hero h1 {
+        font-size: 36px;
     }
 
-    .kathakar-info {
+    .km-hero p {
+        font-size: 19px;
+    }
+
+
+    .km-info {
         grid-template-columns: 1fr;
+        gap: 12px;
+        margin-bottom: 30px;
     }
 
-    .kathakar-content {
-        padding: 25px 18px;
+    .km-info-card {
+        padding: 20px 15px;
+    }
+
+    .km-info-card .icon {
+        font-size: 29px;
+    }
+
+    .km-info-card h3 {
+        font-size: 22px;
+    }
+
+    .km-info-card p {
+        font-size: 19px;
+    }
+
+
+    .km-section {
+        padding: 28px 18px;
+        margin-bottom: 22px;
+    }
+
+    .km-section h2 {
+        font-size: 28px;
+    }
+
+    .km-section p {
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
+
+    .km-registration {
+        padding: 38px 18px;
+        margin: 30px 0;
+    }
+
+    .km-registration h2 {
+        font-size: 29px;
+    }
+
+    .km-registration p {
+        font-size: 18px;
+    }
+
+    .km-form-btn {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 18px 15px;
+        font-size: 21px;
+    }
+
+
+    .km-manch {
+        padding: 35px 18px;
+    }
+
+    .km-manch h2 {
+        font-size: 29px;
+    }
+
+    .km-manch p {
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
+}
+
+
+/* ---------- SMALL PHONES ---------- */
+
+@media (max-width: 420px) {
+
+    .km-hero h1 {
+        font-size: 32px;
+    }
+
+    .km-hero p {
+        font-size: 18px;
+    }
+
+    .km-info-card h3 {
+        font-size: 21px;
+    }
+
+    .km-info-card p {
+        font-size: 18px;
+    }
+
+    .km-section h2 {
+        font-size: 26px;
+    }
+
+    .km-registration h2 {
+        font-size: 27px;
+    }
+
+    .km-form-btn {
+        font-size: 20px;
     }
 
 }
@@ -172,7 +361,10 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
 
 <body>
 
-<!-- ================= HEADER ================= -->
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
 <header>
 
@@ -187,9 +379,14 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
 
     </div>
 
-    <button class="menu-toggle" aria-label="Menu">
+
+    <button class="menu-toggle"
+            aria-label="Menu">
+
         ☰
+
     </button>
+
 
     <nav>
 
@@ -256,16 +453,19 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
 </header>
 
 
-<!-- ================= MAIN ================= -->
 
-<main class="kathakar-page">
+<!-- =====================================================
+     MAIN
+===================================================== -->
 
-<div class="kathakar-container">
+<main class="km-page">
+
+<div class="km-container">
 
 
     <!-- HERO -->
 
-    <section class="kathakar-hero">
+    <section class="km-hero">
 
         <h1>
             ✨ ਕਥਾਕਾਰ ਮਿਲਣੀ–2
@@ -278,13 +478,21 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
     </section>
 
 
+
     <!-- EVENT INFORMATION -->
 
-    <section class="kathakar-info">
+    <section class="km-info">
 
-        <div class="kathakar-card">
 
-            <h3>📅 ਮਿਤੀ</h3>
+        <div class="km-info-card">
+
+            <div class="icon">
+                📅
+            </div>
+
+            <h3>
+                ਮਿਤੀ
+            </h3>
 
             <p>
                 4 ਅਕਤੂਬਰ
@@ -293,9 +501,16 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
         </div>
 
 
-        <div class="kathakar-card">
 
-            <h3>⏰ ਸਮਾਂ</h3>
+        <div class="km-info-card">
+
+            <div class="icon">
+                ⏰
+            </div>
+
+            <h3>
+                ਸਮਾਂ
+            </h3>
 
             <p>
                 ਸਵੇਰੇ 9:30 ਵਜੇ<br>
@@ -305,9 +520,16 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
         </div>
 
 
-        <div class="kathakar-card">
 
-            <h3>📍 ਸਥਾਨ</h3>
+        <div class="km-info-card">
+
+            <div class="icon">
+                📍
+            </div>
+
+            <h3>
+                ਸਥਾਨ
+            </h3>
 
             <p>
                 ਪੰਜਾਬੀ ਭਵਨ<br>
@@ -316,12 +538,14 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
 
         </div>
 
+
     </section>
+
 
 
     <!-- ABOUT EVENT -->
 
-    <section class="kathakar-content">
+    <section class="km-section">
 
         <h2>
             ਕਥਾਕਾਰ ਮਿਲਣੀ–2 ਬਾਰੇ
@@ -330,22 +554,40 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
         <p>
             ਕਥਾਕਾਰ ਮਿਲਣੀ–2 ਪੰਜਾਬੀ ਕਹਾਣੀਕਾਰਾਂ,
             ਲੇਖਕਾਂ ਅਤੇ ਸਾਹਿਤ ਪ੍ਰੇਮੀਆਂ ਨੂੰ ਇੱਕ ਸਾਂਝੇ
-            ਸਾਹਿਤਕ ਮੰਚ 'ਤੇ ਇਕੱਠਾ ਕਰਨ ਦੀ ਇੱਕ ਪਹਿਲ ਹੈ।
+            ਸਾਹਿਤਕ ਮੰਚ ’ਤੇ ਇਕੱਠਾ ਕਰਨ ਦੀ ਇੱਕ ਪਹਿਲ ਹੈ।
         </p>
 
         <p>
-            ਇਸ ਮਿਲਣੀ ਦੌਰਾਨ ਕਹਾਣੀ, ਸਾਹਿਤ ਅਤੇ
-            ਰਚਨਾਤਮਕਤਾ ਨਾਲ ਜੁੜੇ ਵੱਖ-ਵੱਖ ਪੱਖਾਂ ਬਾਰੇ
-            ਵਿਚਾਰ-ਵਟਾਂਦਰਾ ਅਤੇ ਆਪਸੀ ਮਿਲਾਪ ਦਾ ਮੌਕਾ
-            ਮਿਲੇਗਾ।
+            ਇਹ ਮਿਲਣੀ ਕਹਾਣੀ ਅਤੇ ਸਾਹਿਤ ਨਾਲ ਜੁੜੇ
+            ਰਚਨਾਕਾਰਾਂ ਨੂੰ ਆਪਸ ਵਿੱਚ ਮਿਲਣ,
+            ਵਿਚਾਰ ਸਾਂਝੇ ਕਰਨ ਅਤੇ ਸਾਹਿਤਕ ਸਾਂਝ
+            ਨੂੰ ਹੋਰ ਮਜ਼ਬੂਤ ਕਰਨ ਦਾ ਮੌਕਾ ਪ੍ਰਦਾਨ ਕਰੇਗੀ।
         </p>
 
     </section>
 
 
+
+    <!-- PROGRAM DETAILS -->
+
+    <section class="km-section km-program">
+
+        <h2>
+            📋 ਪ੍ਰੋਗਰਾਮ ਦਾ ਵਿਸਥਾਰ ਵੇਰਵਾ
+        </h2>
+
+        <p>
+            ਪ੍ਰੋਗਰਾਮ ਦਾ ਵਿਸਥਾਰ ਵੇਰਵਾ ਜਲਦ ਹੀ
+            ਇੱਥੇ ਸਾਂਝਾ ਕੀਤਾ ਜਾਵੇਗਾ।
+        </p>
+
+    </section>
+
+
+
     <!-- PARTICIPATION -->
 
-    <section class="kathakar-content">
+    <section class="km-section">
 
         <h2>
             👥 ਕੌਣ ਸ਼ਾਮਲ ਹੋ ਸਕਦਾ ਹੈ?
@@ -360,24 +602,28 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
     </section>
 
 
-    <!-- REGISTRATION -->
 
-    <section class="kathakar-register">
+    <!-- =================================================
+         REGISTRATION
+    ================================================= -->
+
+    <section class="km-registration">
 
         <h2>
-            📝 ਰਜਿਸਟ੍ਰੇਸ਼ਨ
+            📝 ਕਥਾਕਾਰ ਮਿਲਣੀ–2 ਲਈ ਰਜਿਸਟ੍ਰੇਸ਼ਨ
         </h2>
 
         <p>
-            ਕਥਾਕਾਰ ਮਿਲਣੀ–2 ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣ ਲਈ
-            ਆਪਣੀ ਜਾਣਕਾਰੀ Google Form ਰਾਹੀਂ ਦਰਜ ਕਰੋ।
+            ਮਿਲਣੀ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਣ ਲਈ
+            ਹੇਠਾਂ ਦਿੱਤਾ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਫਾਰਮ ਭਰੋ।
         </p>
+
 
         <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScZu1FFvhQkiN6lk3YgU-_HgMkFi5xswpoj6PN2NIEXnz_ziw/viewform?usp=publish-editor"
             target="_blank"
             rel="noopener"
-            class="kathakar-register-btn">
+            class="km-form-btn">
 
             📝 ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਫਾਰਮ ਭਰੋ →
 
@@ -386,13 +632,51 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
     </section>
 
 
-    <!-- BACK -->
 
-    <div class="kathakar-back">
+    <!-- =================================================
+         KATHAKAR MANCH
+    ================================================= -->
 
-        <a href="index.html" class="btn2">
+    <section class="km-manch">
 
-            ← ਅਲਫ਼ਾਜ਼ ਦੀ ਵੈੱਬਸਾਈਟ 'ਤੇ ਵਾਪਸ ਜਾਓ
+        <h2>
+            📖 ਕਥਾਕਾਰ ਮੰਚ
+        </h2>
+
+
+        <p>
+            <strong>ਕਥਾਕਾਰ ਮੰਚ</strong> ਦਾ ਮਕਸਦ
+            ਪੰਜਾਬੀ ਸਾਹਿਤ ਦੀ ਬਿਹਤਰੀ ਲਈ ਨਵੇਂ ਅਤੇ
+            ਪੁਰਾਣੇ ਲੇਖਕਾਂ ਨੂੰ ਇੱਕ ਸਾਂਝੇ ਮੰਚ ’ਤੇ
+            ਇਕੱਠਾ ਕਰਨਾ ਹੈ।
+        </p>
+
+
+        <p>
+            ਇਹ ਮੰਚ ਆਪਸੀ ਸੰਵਾਦ, ਸਹਿਯੋਗ ਅਤੇ
+            ਸਾਹਿਤਕ ਸਾਂਝ ਨੂੰ ਹੋਰ ਮਜ਼ਬੂਤ ਕਰਨ ਵੱਲ
+            ਇੱਕ ਯਤਨ ਹੈ।
+        </p>
+
+
+        <p>
+            ਇਸ ਯਤਨ ਨੂੰ ਅੱਗੇ ਵਧਾਉਣ ਲਈ
+            <strong>
+                ਤੁਹਾਡਾ ਸਾਥ ਅਤੇ ਸਹਿਯੋਗ ਬੇਹੱਦ ਜ਼ਰੂਰੀ ਹੈ।
+            </strong>
+        </p>
+
+    </section>
+
+
+
+    <!-- BACK TO WEBSITE -->
+
+    <div class="km-back">
+
+        <a href="index.html">
+
+            ← ਅਲਫ਼ਾਜ਼ ਦੀ ਵੈੱਬਸਾਈਟ ’ਤੇ ਵਾਪਸ ਜਾਓ
 
         </a>
 
@@ -404,13 +688,18 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
 </main>
 
 
-<!-- ================= FOOTER ================= -->
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
 <footer>
 
 <div class="container">
 
-    <h2>ਅਲਫ਼ਾਜ਼</h2>
+    <h2>
+        ਅਲਫ਼ਾਜ਼
+    </h2>
 
     <p>
         Punjabi Story Writer • Author • Editor
@@ -433,6 +722,7 @@ content="ਕਥਾਕਾਰ ਮਿਲਣੀ–2 — ਪੰਜਾਬੀ ਕਹਾ
 </footer>
 
 
+
 <script>
 
 document.getElementById("year").textContent =
@@ -440,7 +730,9 @@ document.getElementById("year").textContent =
 
 </script>
 
+
 <script src="script.js"></script>
+
 
 </body>
 
