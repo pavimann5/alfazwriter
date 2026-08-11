@@ -1812,3 +1812,69 @@ END OF STYLESHEET
     line-height: 1.7;
     font-size: 17px;
 }
+/* ================= WHATSAPP GROUP ================= */
+
+.km-whatsapp {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 35px 0;
+    border-radius: 20px;
+    border: 2px solid rgba(37, 211, 102, 0.35);
+}
+
+.km-whatsapp h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.km-whatsapp p {
+    font-size: 20px;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+.km-whatsapp-btn {
+    display: inline-block;
+    padding: 16px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.km-whatsapp-qr {
+    display: block;
+    width: 270px;
+    max-width: 85%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.km-whatsapp-note {
+    margin-top: 18px;
+    font-size: 18px !important;
+}
+
+@media (max-width: 600px) {
+
+    .km-whatsapp {
+        padding: 32px 15px;
+    }
+
+    .km-whatsapp h2 {
+        font-size: 28px;
+    }
+
+    .km-whatsapp p {
+        font-size: 18px;
+    }
+
+    .km-whatsapp-btn {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+
+}
