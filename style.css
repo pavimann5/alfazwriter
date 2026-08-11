@@ -1740,3 +1740,50 @@ END OF STYLESHEET
         box-shadow: 0 0 18px rgba(212, 175, 55, 0.55);
     }
 }
+/* ================= REGISTRATION HIGHLIGHT ================= */
+
+.kathakar-register {
+    text-align: center;
+    padding: 55px 25px;
+    margin-top: 40px;
+    border-radius: 18px;
+    border: 2px solid rgba(212, 175, 55, 0.55);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.kathakar-register h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.kathakar-register p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.kathakar-register-btn {
+    display: inline-block;
+    padding: 18px 42px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: registerPulse 1.8s ease-in-out infinite;
+}
+
+.kathakar-register-btn:hover {
+    transform: translateY(-4px) scale(1.03);
+}
+
+@keyframes registerPulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(212, 175, 55, 0);
+    }
+
+    50% {
+        transform: scale(1.06);
+        box-shadow: 0 0 22px rgba(212, 175, 55, 0.55);
+    }
+}
